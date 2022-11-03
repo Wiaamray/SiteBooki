@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400;1,500&family=Roboto+Slab&display=swap');
 
+
 *
 {
 	margin:0;
@@ -255,7 +256,7 @@ form
 	height:fit-content;
 	gap:15px;
 	margin-top:10px;
-  padding: 30px}
+padding: 30px}
 
 .container-filters h2
 {
@@ -345,15 +346,17 @@ aside
 	display: flex;
 	flex-direction: column;
 	border-radius: 20px;
-  position:absolute;
 	padding: 0px 15px 25px 15px;
-
+	margin-right:45px;
 }
 
 .popular-block
 {
-	margin-left:60%;
-	margin-top:20px;
+	margin-left: 45px;
+	width:31%;
+	max-width: 415px;
+	margin-top:0;
+	position:inherit;
 }
 
 .heading
@@ -375,14 +378,13 @@ aside
 
 ul.popular-container
 {
-
 	border-radius: 20px;
-	padding:0 60px 0 30px;
+	padding:0;
 }
 
 .popular-container li
 {
-	width: 320px;
+	width: 100%;
 	margin: 0;
 	padding: 5px;
 	position: relative;
@@ -391,9 +393,8 @@ ul.popular-container
 
 .popular-card
 {
+	width: inherit;
 	display: flex;
-	width:333px;
-	height: 140px;
 	background-color: white;
 	padding: 1.5% 1.5% 0% 1.5%;
 	border-radius: 20px;
@@ -463,22 +464,28 @@ ul.popular-container
 	font-size:11px;
 }
 
+.container-size
+{
+	padding-left: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+
 /* Fin section Populaires */
 /*Accommodation in Marseilles*/
 .booking-container
 {
-	margin: 20px auto;
-	display: flex;
-	gap: 30px;
-	padding:0 0 0 25px;
-
+	display:block;
+	margin: 0;
+	max-width: 950px;
+	padding: 0;
+	flex-basis: 65%;
 }
 
 .marseilles-container
 {
 	background-color:#F2F2F2;
 	border-radius: 20px;
-	flex-basis: 62%;
 	padding: 30px;
 }
 
@@ -975,19 +982,19 @@ a
 		margin-bottom:22px;
 	}
 
-	
+	.container-size
+	{
+		padding:0;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
 	aside
 	{
-		flex: none;
 		min-width: 100%;
 		margin: 0 auto;
 		border-radius:0;
-		padding: 0 44px 0 0;
-	}
-
-	.heading
-	{
-		padding: 30px 77px 30px 21px;
+		padding: 0;
 	}
 
 	.star-popular
@@ -1009,7 +1016,7 @@ a
 
 	ul.popular-container
 	{
-		padding: 0 2px 0 15px;
+		padding: 0 10px;
 	}
 
 	.popular-desc
@@ -1026,6 +1033,13 @@ a
 		font-size: 18px;
 	}
 
+	.img-popular1,.img-popular2,.img-popular3
+	{
+		object-fit: cover;
+		width: 123px;
+		height: 150px;
+	}
+
 	/*Accommodation in Marseilles*/
 	.booking-container
 	{
@@ -1039,13 +1053,11 @@ a
 
 	.marseilles-container h2
 	{
-		
 		text-align: left;
 	}
 
 	.marseilles-container
 	{
-		margin-top: 150%;
 		background-color: transparent;
 		min-width: 100%;
 	}
@@ -1069,14 +1081,13 @@ a
 
 	.show-more
 	{
-		margin-top: 343%;
+		margin-top: 355%;
 	}
 
 	/* End accommodation in Marseilles*/
 	/*Section activities*/
 	.container-activities
 	{
-		
 		padding: 0 20px;
 		display: flex;
 		flex-direction: column;
@@ -1118,7 +1129,6 @@ a
 	.activities-block
 	{
 		display: flex;
-		
 	}
 
 	/*End section activités*/
@@ -1269,7 +1279,7 @@ a
 
 	aside
 	{
-	  margin:0 auto;
+		margin:0 auto;
 		border-radius: 0;
 	}
 
@@ -1278,13 +1288,9 @@ a
 		margin: 0;
 	}
 
-.heading
-  {
-    margin-left:40px;
-  }
 	ul.popular-container
 	{
-		padding: 0 59px 0 49px;
+		padding: 0 59px 22px 49px;
 		border-radius:0;
 	}
 
@@ -1300,12 +1306,11 @@ a
 		flex-direction: column;
 	}
 
-	
 	.img-popular1,  .img-popular2,  .img-popular3
 	{
 		object-fit: cover;
 		width: 174px;
-		height: 130px;
+		height: 180px;
 	}
 
 	/*Accommodation in Marseilles*/
@@ -1317,7 +1322,7 @@ a
 
 	.booking-container
 	{
-		margin-top: -99%;
+		margin-top: -167px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -1327,7 +1332,6 @@ a
 	{
 		background-color: transparent;
 		min-width: 100%;
-		
 	}
 
 	.card-hotel
@@ -1362,7 +1366,6 @@ a
 	/*Section activities*/
 	.container-activities
 	{
-		
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -1396,7 +1399,7 @@ a
 	{
 		display: flex;
 		justify-content: center;
-    min-width: 100%;
+		min-width: 100%;
 		margin: 0 30px 0 10px;
 	}
 
@@ -1404,7 +1407,7 @@ a
 	{
 		left: 0;
 		padding-right: 479px;
-    margin-top: -33px;
+		margin-top: -33px;
 	}
 
 	/*End section activités*/
