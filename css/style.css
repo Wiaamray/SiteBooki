@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400;1,500&family=Roboto+Slab&display=swap');
 
-
 *
 {
 	margin:0;
@@ -100,6 +99,7 @@ html,body
 }
 
 #activities
+
 {
 	margin-bottom: 45px;
 }
@@ -426,7 +426,7 @@ ul.popular-container
 	position: absolute;
 	margin: 0 auto;
 	margin-top: 5px;
-	padding: 3px 41px 21px 45%;
+	padding: 3px 10px 21px 49%;
 	line-height: 15px;
 }
 
@@ -487,7 +487,7 @@ ul.popular-container
 /*Accommodation in Marseilles*/
 .booking-container
 {
-	display:block;
+	height: 600px;
 	margin: 0;
 	max-width: 950px;
 	padding: 0;
@@ -498,6 +498,7 @@ ul.popular-container
 {
 	background-color:#F2F2F2;
 	border-radius: 20px;
+	height:100%;
 	padding: 30px;
 }
 
@@ -524,7 +525,7 @@ ul#cards-container
 {
 	display: flex;
 	flex-wrap:wrap;
-	gap: 30px;
+	gap: 20px;
 	width: 100%;
 	margin-top:30px;
 }
@@ -629,7 +630,6 @@ article a
 
 .show-more
 {
-	margin-top: 260px;
 	font-weight: bold;
 	font-size: 17px;
 	color: black;
@@ -646,117 +646,101 @@ article a
 {
 	max-width: 1440px;
 	margin: 0 auto;
+	padding: 0 33px;
+	width: 96%;
+	height: 55vh;
+	margin: 0 2% 50px 2%;
 }
 
-.container-activities
+.big-title
 {
-	width:100%;
 	display: flex;
-	flex-direction: column;
-	border-radius: 20px;
-}
-
-.container-activities h2
-{
-	font-size:21px;
+	align-content: space-around;
+	height: 10%;
+	margin: 40px 0;
 }
 
 .activities-block
 {
 	display: flex;
+	height: 90%;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	gap:20px;
+	justify-content: space-between;
 }
 
-.container-activitiesmall
+.card-activityl
 {
 	display: flex;
-	flex-direction:column;
-	justify-content: space-between;
-	height:100%;
-	gap:40px;
-}
-
-.card-activitiesmall
-{
-	width: 294px;
-	border-radius: 15px;
-	box-shadow: 5px 5px 5px 1px #f2f2f2;
-}
-
-.card-activitiesmall:hover
-{
-	cursor: pointer;
-	transform: scale(1.03);
-}
-
-.card-activity
-{
+	flex-direction: column;
+	height: 100%;
 	width: 23%;
 	border-radius: 15px;
-	box-shadow: 5px 5px 5px 1px #f2f2f2;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
-.card-activity:hover
+.card-activitym
+{
+	display: flex;
+	flex-direction: column;
+	height: 50%;
+	width: 23%;
+	border-radius: 15px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-activitys
+{
+	display: flex;
+	flex-direction: column;
+	height: 45%;
+	width: 23%;
+	border-radius: 15px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-activitym img
+{
+	height: 80%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.card-activitys img
+{
+	height: 80%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.card-activityl img
+{
+	height: 90%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.card-activityl:hover
 {
 	cursor: pointer;
 	transform: scale(1.03);
 }
 
-.img-activity1
+.card-activitym:hover
 {
-	object-fit: cover;
-	width: 100%;
-	height: 379px;
-	border-radius: 15px 15px 0 0;
+	cursor: pointer;
+	transform: scale(1.03);
 }
 
-.img-activity2
+.card-activitys:hover
 {
-	object-fit: cover;
-	width: 294px;
-	height:175px;
-	border-radius: 15px 15px 0 0;
-}
-
-.img-activity3
-{
-	object-fit: cover;
-	width: 294px;
-	height: 107px;
-	border-radius: 15px 15px 0 0;
-}
-
-.img-activity4
-{
-	object-fit: cover;
-	width: 100%;
-	height: 379px;
-	border-radius: 15px 15px 0 0;
-}
-
-.img-activity5
-{
-	object-fit: cover;
-	width: 294px;
-	height:135px;
-	border-radius: 15px 15px 0 0;
-}
-
-.img-activity6
-{
-	object-fit: cover;
-	width: 294px;
-	height:135px;
-	border-radius: 15px 15px 0 0;
-}
-
-.big-title
-{
-	font-weight: 600;
-	color: black;
-	padding: 30px 0 30px 30px;
+	cursor: pointer;
+	transform: scale(1.03);
 }
 
 .style-desc
@@ -786,6 +770,7 @@ footer
 
 .footer-container
 {
+	margin-top:122px;
 	width: 100%;
 	padding: 67px 1px 0 178px;
 	display: flex;
@@ -987,6 +972,17 @@ a
 		height: 125px;
 	}
 
+	.booking-container
+	{
+		height: auto;
+		width: 100%;
+	}
+
+	.marseilles-container
+	{
+		height: 600px;
+	}
+
 	#activities
 	{
 		margin:0 auto;
@@ -995,25 +991,11 @@ a
 	.activities-block
 	{
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	.container-activities
-	{
-		display: flex;
-		flex-wrap:wrap;
 	}
 
 	.big-title
 	{
 		left: 0;
-	}
-
-	.img-activity3
-	{
-		width: 294px;
-		height: 107px;
 	}
 
 	footer
@@ -1062,7 +1044,7 @@ a
 	{
 		margin-top:40px;
 		width: 35%;
-		height: 35%;
+		height: 55%;
 	}
 
 	a.active
@@ -1237,12 +1219,12 @@ a
 	/*Accommodation in Marseilles*/
 	.booking-container
 	{
-		min-width: 100%;
+		height: auto;
+		width: 100%;
 		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: 0;
-		margin-top:44px;
+		flex-direction: column-reverse;
+		margin: auto;
+		margin-bottom: 0px;
 	}
 
 	.marseilles-container h2
@@ -1252,8 +1234,9 @@ a
 
 	.marseilles-container
 	{
-		background-color: transparent;
 		min-width: 100%;
+		height: 1340px;
+		background-color: transparent;
 	}
 
 	.card-hotel
@@ -1273,56 +1256,44 @@ a
 		padding: 0 0 0 8px;
 	}
 
-	.show-more
-	{
-		margin-top: 355%;
-	}
-
 	/* End accommodation in Marseilles*/
 	/*Section activities*/
-	.container-activities
+	#activities
 	{
-		padding: 0 20px;
+		margin: auto;
+		height: fit-content;
 		display: flex;
 		flex-direction: column;
-		min-width: 100%;
-		margin:0;
+		flex-wrap: wrap;
+		align-content: space-around;
+	}
+
+	.card-activityl, .card-activitym, .card-activitys
+	{
+		width: 90%;
+		height: 190px;
+		flex-direction: row;
+	flex-wrap: wrap}
+
+	.card-activityl img, .card-activitym img, .card-activitys img
+	{
+		height: 70%;
+	}
+
+	.activities-block
+	{
+		width: 121%;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: space-around;
+		gap: 1cm;
+		margin-bottom: 30px;
 	}
 
 	.big-title
 	{
 		left:0;
-		padding-right: 86px;
-	}
-
-	.card-activity
-	{
-		width: 100%;
-		height:auto;
-	}
-
-	.container-activitiesmall
-	{
-		width:100%;
-		height: auto;
-	}
-
-	.card-activitiesmall
-	{
-		width: 100%;
-		height:auto;
-	}
-
-	.img-activity1,.img-activity2,.img-activity3,.img-activity4,.img-activity5,.img-activity6
-	{
-		width: 100%;
-		height: 200px;
-	}
-
-	.activities-block
-	{
-		display: flex;
-		flex-direction: column;
+		margin:10%;
 	}
 
 	/*End section activités*/
@@ -1347,6 +1318,3 @@ a
 		margin-bottom: 20px;
 	}
 }
-
-
-	
