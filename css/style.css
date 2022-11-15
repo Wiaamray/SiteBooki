@@ -12,7 +12,7 @@
 
 html,body
 {
-	font-family: Raleway, Arial, Helvetica, sans-serif;
+	font-family: Raleway,sans-serif;
 	background-color: white;
 	margin: 0 auto;
 	max-width: 1400px;
@@ -98,19 +98,6 @@ html,body
 	font-weight:600;
 }
 
-#activities
-
-{
-	margin-bottom: 45px;
-}
-
-.main
-{
-	font-family: "Raleway", sans-serif;
-	max-width: 1440px;
-	margin: 0 auto;
-}
-
 /*Fin Flexbox*/
 /*--Nav--*/
 header
@@ -181,6 +168,13 @@ a.active
 
 /*--Fin Nav--*/
 /*Barre de recherche*/
+.main
+{
+	font-family: "Raleway", sans-serif;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
 .container-search
 {
 	width:100%;
@@ -219,7 +213,7 @@ a.active
 	width: 50px;
 	border-radius: 10px 0 0 10px;
 	background-color: #f2f2f2;
-	;
+	
 }
 
 form
@@ -268,7 +262,7 @@ form
 	height:fit-content;
 	gap:15px;
 	margin-top:10px;
-padding: 30px}
+    padding: 30px}
 
 .container-filters h2
 {
@@ -518,7 +512,7 @@ ul.popular-container
 	margin: 0 auto;
 	padding: 0;
 	width:238px;
-	height: 195px;
+	
 }
 
 ul#cards-container
@@ -630,6 +624,7 @@ article a
 
 .show-more
 {
+	margin:20px 0 0 0;
 	font-weight: bold;
 	font-size: 17px;
 	color: black;
@@ -754,7 +749,7 @@ article a
 	justify-content: flex-start;
 	align-items: center;
 	padding-left: 5%;
-	width: 95%;
+	width: 115%;
 	font-weight: bold;
 	font-size: 14px;
 }
