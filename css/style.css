@@ -156,6 +156,7 @@ nav ul li a
 	display: flex;
 	align-items: center;
 	padding: 0 20px;
+	justify-content: center;
 }
 
 nav ul a:hover
@@ -272,6 +273,7 @@ form
 	font-size: 18px;
 	margin-top: 10px;
 	color: black;
+	line-height: 42px;
 }
 
 .container-filters ul
@@ -660,8 +662,7 @@ article a
 {
 	display: flex;
 	align-content: space-around;
-	height: 10%;
-	margin: 40px 0;
+	margin: 30px 0;
 }
 
 .activities-block
