@@ -736,9 +736,10 @@ article a
 }
 
 .card-activityl img
+
 {
 	
-	height: 90%;
+	height:90%;
 	width: 100%;
 	object-fit: cover;
 	border-radius: 15px 15px 0 0;
@@ -762,32 +763,16 @@ article a
 	transform: scale(1.03);
 }
 
-
-.card__overlay {
-  
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 20px 8px;
-    background: #fff;
-    font-weight: 700;
-	border-radius: 15px;
-	font-size: 14px;
-	padding-left: 20px;
-}
-
-
-/*
 .title-activity
 {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	padding-left: 20px;
+	padding-left: 30px;
 	font-weight: bold;
-	font-size: 14px;
-	margin-top:10px;	
-}*/
+	font-size: 14px;	
+	padding: 20px 20px;
+}
 
 /*Fin Activités*/
 footer
