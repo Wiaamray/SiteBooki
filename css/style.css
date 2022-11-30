@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400;1,500&family=Roboto+Slab&display=swap');
 
 
+
+
+
 *
 {
 	margin:0;
@@ -760,6 +763,21 @@ article a
 }
 
 
+.card__overlay {
+  
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 8px;
+    background: #fff;
+    font-weight: 700;
+	border-radius: 15px;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+
+/*
 .title-activity
 {
 	display: flex;
@@ -769,7 +787,7 @@ article a
 	font-weight: bold;
 	font-size: 14px;
 	margin-top:10px;	
-}
+}*/
 
 /*Fin Activités*/
 footer
