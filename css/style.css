@@ -664,8 +664,9 @@ article a
 {
 	margin:0 auto;
 	padding: 0;
-	height: 55vh;
+	height: 58vh;
 	max-width: 1440px;
+
 }
 
 .big-title
@@ -678,11 +679,12 @@ article a
 .activities-block
 {
 	display: flex;
-	height: 90%;
+	height: 100%;
 	width: 100%;
 	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-bottom: 40px;
 }
 
 .card-activityl
@@ -721,7 +723,7 @@ article a
 
 .card-activitym img
 {
-	height: 80%;
+	height: 70%;
 	width: 100%;
 	object-fit: cover;
 	border-radius: 15px 15px 0 0;
@@ -729,7 +731,7 @@ article a
 
 .card-activitys img
 {
-	height: 80%;
+	height: 70%;
 	width: 100%;
 	object-fit: cover;
 	border-radius: 15px 15px 0 0;
@@ -784,8 +786,9 @@ footer
 }
 
 .footer-container
+
 {
-	margin-top:93px;
+	margin-top:144px;
 	padding: 60px 1px 0 40px;
 	display: flex;
 	justify-content: center;
