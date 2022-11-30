@@ -15,6 +15,7 @@ body
 {
 	font-family: Raleway,sans-serif;
 	background-color: white;
+
 }
 
 section
@@ -106,7 +107,7 @@ section
 /*--Nav--*/
 header
 {
-	margin-left:33px;
+	margin:0 auto;
 	background-color: white;
 	max-width: 1440px;
 }
@@ -127,7 +128,6 @@ nav
 nav img
 {
 	margin-top:40px;
-	margin-left:30px;
 	width: 88px;
 	height:45px;
 }
@@ -174,16 +174,18 @@ a.active
 
 /*--Fin Nav--*/
 /*Barre de recherche*/
+
 main
 {
 	font-family: "Raleway", sans-serif;
 	max-width: 1440px;
+	margin:0 auto;
 }
 
 .container-search
 {
 	margin-top:33px;
-	margin-left: 40px;
+	
 }
 
 .container-search h1
@@ -227,7 +229,7 @@ form
 
 .research
 {
-	width:222px;
+	width:100%;
 	height: 50px;
 	font-size: 17px;
 	color: black;
@@ -240,7 +242,7 @@ form
 .search-button
 {
 	height: 50px;
-	width: 131px;
+	width: 50%;
 	font-size: 17px;
 	font-weight: bold;
 	color: white;
@@ -257,15 +259,15 @@ form
 
 /* Fin Barre de recherche*/
 /*Filters*/
+
 .container-filters
 {
-	margin-left:10px;
 	display:flex;
 	flex-direction:row;
 	height:fit-content;
 	gap:15px;
-	margin-top:10px;
-	padding: 30px}
+	margin-top:20px;
+	}
 
 .container-filters h2
 {
@@ -288,6 +290,7 @@ form
 	color:black;
 	font-weight: 900;
 	font-size: 18px;
+	text-align: center;
 }
 
 .container-filters .filters
@@ -310,8 +313,9 @@ form
 	border-radius: 50%;
 	font-size: 18px;
 	margin: 0 12px 0 -1px;
-	padding: 17px 0 0 13px;
+	line-height: 48px;
 }
+
 
 li.filters:hover
 {
@@ -328,12 +332,13 @@ li.filters:hover
 /*Fin filters*/
 /*info*/
 .info
+
 {
-	margin-left: 20px;
-	margin-top:10px;
+	margin-top:20px;
+	margin-bottom: 20px;
 	display: flex;
 	align-items: center;
-	padding: 0 0 20px 20px;
+	
 }
 
 .info p
@@ -363,7 +368,7 @@ aside
 	flex-direction: column;
 	border-radius: 20px;
 	padding: 0px 15px 25px 15px;
-	margin-right:45px;
+	
 }
 
 .popular-block
@@ -412,7 +417,7 @@ ul.popular-container
 	width: inherit;
 	display: flex;
 	background-color: white;
-	padding: 1.5% 1.5% 0% 1.5%;
+	padding: 1.5% 1.5% 1.5% 1.5%;
 	border-radius: 20px;
 	margin-bottom: 10px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -484,7 +489,7 @@ ul.popular-container
 
 .container-size
 {
-	margin-left: 40px;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
@@ -651,11 +656,13 @@ article a
 
 /*Fin section-2 Accommodation in Marseilles*/
 /*activities*/
+
 #activities
 {
-	margin-left: 40px;
+	margin:0 auto;
 	padding: 0;
 	height: 55vh;
+	max-width: 1440px;
 }
 
 .big-title
@@ -677,8 +684,10 @@ article a
 
 .card-activityl
 {
+	
 	display: flex;
 	flex-direction: column;
+	background-color: white;
 	height: 100%;
 	width: 23%;
 	border-radius: 15px;
@@ -687,6 +696,7 @@ article a
 
 .card-activitym
 {
+	
 	display: flex;
 	flex-direction: column;
 	height: 50%;
@@ -697,6 +707,7 @@ article a
 
 .card-activitys
 {
+	
 	display: flex;
 	flex-direction: column;
 	height: 45%;
@@ -723,6 +734,7 @@ article a
 
 .card-activityl img
 {
+	
 	height: 90%;
 	width: 100%;
 	object-fit: cover;
@@ -747,20 +759,16 @@ article a
 	transform: scale(1.03);
 }
 
-.style-desc
-{
-	height: 100%;
-	line-height: 250%;
-}
 
 .title-activity
 {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	padding-left: 5%;
+	padding-left: 20px;
 	font-weight: bold;
 	font-size: 14px;
+	margin-top:10px;	
 }
 
 /*Fin Activités*/
@@ -836,14 +844,15 @@ a
 	color: black;
 }
 
-@media screen and (min-width:768px) and (max-width:991px)
+@media only screen and (min-width:768px) and (max-width: 992px) 
+
 {
 	/* responsive largeur minimal tablette/ Ecran moyen largeur maximal */
-	nav img
-	{
-		margin-left:4%;
-	}
 
+
+	nav img{
+		margin-left:22px;
+	}
 	.container-search
 	{
 		margin-left:3%;
@@ -893,7 +902,7 @@ a
 
 	.container-filters
 	{
-		margin-left:-3px;
+		margin-left:3%;
 	}
 
 	.container-filters ul
@@ -905,7 +914,7 @@ a
 	.info
 	{
 		display: flex;
-		margin-left:3px;
+		margin-left:3%;
 	}
 
 	.container-filters ul
@@ -1009,21 +1018,54 @@ a
 		left: 0;
 	}
 
-	footer
-	{
-		height: auto;
-		justify-content: space-between;
-	}
 
-	.footer-container
-	{
-		padding: 8% 0 7% 3%;
-	}
+
+	.card-activitym img
+{
+	height: 80%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.card-activitys img
+{
+	height: 80%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+.card-activityl img
+
+{
+	height: 90%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+}
+
+footer
+{
+	height: auto;
+	justify-content: space-between;
+}
+
+.footer-container
+
+{
+	padding: 8% 0 7% 3%;
+}
+
+
 }
 
 /*Responsive mobile*/
-@media  screen and (max-width:767px)
+
+@media screen and (min-width: 320px) and (max-width: 767px) 
+
 {
+
 	body
 	{
 		min-width:100%;
@@ -1086,7 +1128,7 @@ a
 	.container-search
 	{
 		margin-top:45px;
-		margin-left:8%;
+		margin-left:6%;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -1154,9 +1196,11 @@ a
 
 	.container-filters
 	{
-		margin:0;
+
 		display: flex;
 		flex-direction: column;
+	    margin-bottom: 20px;
+		margin-left:22px;
 	}
 
 	.container-filters h2
@@ -1242,14 +1286,21 @@ a
 		height: 141px;
 	}
 
+	.img-popular1,
+	.img-popular2,
+	.img-popular3 {
+
+		height: 100%; }
+
 	/*Accommodation in Marseilles*/
+
 	.booking-container
 	{
+		margin: 0 auto;
 		height: auto;
 		width: 100%;
 		display: flex;
 		flex-direction: column-reverse;
-		margin: 0 auto;
 		margin-bottom: 0px;
 	}
 
@@ -1259,11 +1310,18 @@ a
 	}
 
 	.marseilles-container
+
 	{
-		padding: 8% 10% 0 2%;
+		margin:0 auto;
+		padding: 8% 5% 0 5%;
 		min-width: 100%;
 		height: 1340px;
 		background-color: transparent;
+	}
+
+	ul#cards-container{
+		margin:0 ;
+		
 	}
 
 	.card-hotel
@@ -1300,7 +1358,7 @@ a
 		width: 88%;
 		height: 190px;
 		flex-direction: row;
-	flex-wrap: wrap}
+	    flex-wrap: wrap}
 
 	.card-activityl img, .card-activitym img, .card-activitys img
 	{
@@ -1325,9 +1383,12 @@ a
 	{
 		width:139%;
 		padding: 0;
-		margin-left:13%;
+		margin-left:5%;
 	}
 
+	.title-activity{
+		margin-bottom:5%;
+	}
 	/*End section activités*/
 	footer
 	{
