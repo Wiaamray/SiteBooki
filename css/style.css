@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400;1,500&family=Roboto+Slab&display=swap');
 
-
-
-
-
 *
 {
 	margin:0;
@@ -659,14 +655,13 @@ article a
 
 /*Fin section-2 Accommodation in Marseilles*/
 /*activities*/
-
+/*
 #activities
 {
 	margin:0 auto;
 	padding: 0;
-	height: 58vh;
+	height: 70vh;
 	max-width: 1440px;
-
 }
 
 .big-title
@@ -704,7 +699,7 @@ article a
 	
 	display: flex;
 	flex-direction: column;
-	height: 50%;
+height: 225px;;
 	width: 23%;
 	border-radius: 15px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -777,6 +772,157 @@ article a
 }
 
 /*Fin Activités*/
+
+
+/*partie activités*/
+
+.activites {
+	display: flex;
+	flex-direction: column;
+	margin:0 auto;
+	margin-top: 40px;
+  }
+
+  .card-activites {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	margin-bottom: 40px;
+  }
+
+  .big-title
+  {
+	  display: flex;
+	  align-content: space-around;
+	  margin: 30px 0;
+  }
+  
+  .activite-card-one:hover
+{
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+  .act-card-title {
+	margin-left: 20px;
+	font-weight: bold;
+	padding: 10px 10px;
+  }
+
+  .activite-card-one {
+	width: 25%;
+	min-width: 150px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 15px;
+  }
+  
+  .img-activite-big {
+	border: none;
+	height: 445px;
+	
+  }
+  .img-activite-big img {
+	height: 390px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+  }
+  
+  .card-activites-double {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	min-width: 150px;
+	gap: 45px;
+	
+  }
+  .act-img-xl {
+	height: 235px;
+	border: none;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 15px;
+  }
+
+  .act-img-xl:hover
+  {
+	  cursor: pointer;
+	  transform: scale(1.03);
+  }
+
+  .act-img-xl img {
+	height: 181px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+  }
+  
+  .act-img-small {
+	border: none;
+	height: 165px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 15px;
+  }
+
+
+  .act-img-small:hover
+  {
+	  cursor: pointer;
+	  transform: scale(1.03);
+  }
+  
+  .act-img-small img {
+	height: 110px;
+	width: 100%;
+	object-position: center;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+  }
+  
+  .act-img-medium {
+	border: none;
+	height: 195px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 15px;
+  }
+
+  .act-img-medium:hover
+  {
+	  cursor: pointer;
+	  transform: scale(1.03);
+  }
+  
+  
+  .act-img-medium img {
+	height: 139px;
+	width: 100%;
+	object-position: top;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+  }
+  
+  .act-img-large {
+	border: none;
+	height: 205px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 15px;
+  }
+
+  
+  .act-img-large:hover
+  {
+	  cursor: pointer;
+	  transform: scale(1.03);
+  }
+  
+  .act-img-large img {
+	height: 154px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 15px 15px 0 0;
+
+  }
+
+
 footer
 {
 	height: 209px;
@@ -788,7 +934,7 @@ footer
 .footer-container
 
 {
-	margin-top:144px;
+	margin-top: 34px;
 	padding: 60px 1px 0 40px;
 	display: flex;
 	justify-content: center;
@@ -850,14 +996,378 @@ a
 	color: black;
 }
 
-@media only screen and (min-width:768px) and (max-width: 992px) 
+@media only screen and (max-width: 991px) 
 
 {
+	body
+	{
+		min-width:100%;
+		margin:0 auto;
+	}
+
+	header
+	{
+		text-align: center;
+		margin-left:0;
+	}
+
+	.navigation
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border-bottom: 3px solid#f2f2f2;
+		margin-top: 3%;
+		min-width: 100%;
+	}
+
+	.navigation nav a
+	{
+		width: 100%;
+		text-align: center;
+	}
+
+	nav img
+	{
+		margin-top:5%;
+	}
+
+	a.active
+	{
+		border-top: 2px solid transparent !important;
+		border-bottom: 3px solid #0065fc;
+		font-size: 18px;
+	}
+
+	nav ul
+	{
+		padding:0;
+		min-width:100%;
+	}
+
+	nav ul li
+	{
+		display: flex;
+		justify-content: center;
+	}
+
+	nav ul a:hover
+	{
+		border-bottom: 3px solid #0065fc;
+		border-top: 2px solid transparent !important;
+		min-width: 100%;
+	}
+
+	.container-search
+	{
+		margin-top:7%;
+		margin-left:6%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	::placeholder
+	{
+		color: black;
+	}
+
+	.container-search h1
+	{
+		font-size: 23px;
+		min-width: 100%;
+	}
+
+	.container-search p
+	{
+		font-size: 16px;
+		color: black;
+		padding: 2% -4%;
+	}
+
+	.box-search
+	{
+		height: auto;
+		width:100%;
+		align-items: center;
+	}
+
+	.research
+	{
+		width: 73%;
+		border-left: none;
+		border-right: none;
+	}
+
+	.mobile-none
+	{
+		display: none;
+	}
+
+	.mobile-yes
+	{
+		display:block;
+	}
+
+	form
+	{
+		width:100%;
+	}
+
+	.search-button
+	{
+		display: block;
+		width: 55px;
+		height: 50px;
+		border-radius: 15px 15px 15px 15px;
+	}
+
+	.icon
+	{
+		padding: 15px 20px 10px 20px;
+	}
+
+	.container-filters
+	{
+
+		display: flex;
+		flex-direction: column;
+	    margin-bottom: 7%;
+		margin-left:6%;
+	}
+
+	.container-filters h2
+	{
+		font-size:20px;
+	}
+
+	.container-filters ul
+	{
+		display: flex;
+		flex-wrap:wrap;
+	}
+
+	.info
+	{
+		margin:0;
+		display: flex;
+		margin-bottom:10%;
+		padding: 0 0 0 7%;
+	}
+
+	.container-size
+	{
+		margin: 0 auto;
+		padding:0;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	aside
+	{
+		min-width: 100%;
+		margin: 0 auto;
+		border-radius:0;
+		padding: 0;
+	}
+
+	.heading
+
+	{
+		padding: 5% 5% 5% 6%;
+	}
+
+	.star-popular
+	{
+		margin: 0;
+	}
+
+	.popular-container h2
+	{
+		min-width: 100%;
+		font-size: 26px;
+	}
+
+	.popular-block
+	{
+		margin:0;
+		padding:0;
+	}
+
+	ul.popular-container
+	{
+		padding: 3% 4%;
+		margin-bottom: 10%;
+	}
+
+	.popular-desc
+	{
+		margin: 0;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		height: 84%;
+		margin-left: 7%;
+		margin-top: 2%;
+	}
+
+	.popular-desc h2,p
+	{
+		font-size: 18px;
+	}
+
+	.popular-card
+	{
+		height: 141px;
+		padding: 4px;
+	}
+
+	.img-popular1,
+	.img-popular2,
+	.img-popular3 {
+
+		height: 100%;
+		width: 30%;
+		object-fit: cover; }
+
+	/*Accommodation in Marseilles*/
+
+	.booking-container
+	{
+		margin: 0 auto;
+		height: auto;
+		min-width: 100%;
+		display: flex;
+		flex-direction: column-reverse;
+		margin-bottom: 0px;
+	}
+
+	.marseilles-container h2
+	{
+		text-align: left;
+	}
+
+	.marseilles-container
+
+	{
+		margin:0 auto;
+		padding: 8% 5% 0 5%;
+		min-width: 100%;
+		height: 100%;
+		background-color: transparent;
+	}
+
+	ul#cards-container{
+		margin:0 ;
+		
+	}
+
+	.card-hotel
+	{
+		width: 100%;
+	}
+
+	.img-hotel1
+	{
+		max-width: 100%;
+	}
+
+	.card-desc
+	{
+		height: 55px;
+		line-height: 17px;
+		padding: 0 0 0 8px;
+	}
+
+	/* End accommodation in Marseilles*/
+	/*Section activities*/
+
+	.activites{
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+	    justify-content: space-around;
+		width: 90%;
+	}
+
+	.card-activites {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		justify-content: center;
+		min-width: 94%;
+
+	  }
+
+	  .act-card-title {
+		margin: 10px;
+	  }
+
+	  .activite-card-one{
+		width: 100%;
+	
+
+	  }
+
+	  .img-activite-big,
+	  .act-img-large,
+	  .act-img-medium,
+	  .act-img-xl,
+	  .act-img-small {
+		height: 191px;
+	  }
+	
+	  .img-activite-big img,
+	  .act-img-large img,
+	  .act-img-medium img,
+	  .act-img-xl img,
+	  .act-img-small img {
+		height: 135px;
+		object-fit: cover;
+	  }
+	
+	  .card-activites-double {
+		gap: 24px;
+		width: 100%;
+	  }
+  
+	/*End section activités*/
+	footer
+	{
+		min-width:100%;
+	}
+
+	.footer-container
+	{
+		bottom: 0;
+		flex-direction: column;
+		align-items: flex-start;
+		height: 400%;
+		padding-left: 5%;
+	}
+
+	.about
+	{
+		margin-top:0;
+		margin-bottom: 10%;
+	}
+
+	.our-accommodations
+	{
+		margin-bottom: 10%;
+	}
+
+	.assistance
+	{
+		margin-bottom: 13%;
+	}
+
+}
 	/* responsive largeur minimal tablette/ Ecran moyen largeur maximal */
 
-
+/*
 	nav img{
-		margin-left:22px;
+		margin-left:20%;
 	}
 	.container-search
 	{
@@ -937,14 +1447,14 @@ a
 		flex-direction: column;
 		justify-content: space-between;
 		gap:50px;
-		padding:0 22px 0 22px;
+		padding:0 3% 3%;
 		margin:0 auto;
 	}
 
 	.popular-block
 	{
 		margin:0 auto;
-		min-width:99%;
+		min-width:100%;
 	}
 
 	.star-popular
@@ -952,7 +1462,7 @@ a
 		margin: 0;
 	}
 
-	ul.popular-container
+	.popular-container
 	{
 		display: flex;
 		flex-direction: row;
@@ -995,16 +1505,7 @@ a
 		height: 125px;
 	}
 
-	.booking-container
-	{
-		height: auto;
-		width: 100%;
-	}
-
-	.marseilles-container
-	{
-		height: 600px;
-	}
+	
 
 	#activities
 	{
@@ -1023,7 +1524,6 @@ a
 	{
 		left: 0;
 	}
-
 
 
 	.card-activitym img
@@ -1066,12 +1566,13 @@ footer
 
 }
 
+
 /*Responsive mobile*/
 
-@media screen and (min-width: 320px) and (max-width: 767px) 
+@media only screen and (max-width: 768px) 
 
 {
-
+	
 	body
 	{
 		min-width:100%;
@@ -1090,7 +1591,7 @@ footer
 		flex-direction: column;
 		justify-content: center;
 		border-bottom: 3px solid#f2f2f2;
-		margin-top: 22px;
+		margin-top: 3%;
 		min-width: 100%;
 	}
 
@@ -1102,7 +1603,7 @@ footer
 
 	nav img
 	{
-		margin-top:40px;
+		margin-top:5%;
 	}
 
 	a.active
@@ -1128,12 +1629,12 @@ footer
 	{
 		border-bottom: 3px solid #0065fc;
 		border-top: 2px solid transparent !important;
-		width: 100%;
+		min-width: 100%;
 	}
 
 	.container-search
 	{
-		margin-top:45px;
+		margin-top:7%;
 		margin-left:6%;
 		display: flex;
 		flex-direction: column;
@@ -1155,7 +1656,7 @@ footer
 	{
 		font-size: 16px;
 		color: black;
-		padding: 5px;
+		padding: 2% -4%;
 	}
 
 	.box-search
@@ -1167,7 +1668,7 @@ footer
 
 	.research
 	{
-		width: 208px;
+		width: 73%;
 		border-left: none;
 		border-right: none;
 	}
@@ -1205,8 +1706,8 @@ footer
 
 		display: flex;
 		flex-direction: column;
-	    margin-bottom: 20px;
-		margin-left:22px;
+	    margin-bottom: 7%;
+		margin-left:6%;
 	}
 
 	.container-filters h2
@@ -1224,7 +1725,7 @@ footer
 	{
 		margin:0;
 		display: flex;
-		margin-bottom:22px;
+		margin-bottom:10%;
 		padding: 0 0 0 7%;
 	}
 
@@ -1246,7 +1747,7 @@ footer
 
 	.heading
 	{
-		padding: 10% 7% 10% 7%;
+		padding: 10% 5% 10% 6%;
 	}
 
 	.star-popular
@@ -1268,7 +1769,7 @@ footer
 
 	ul.popular-container
 	{
-		padding: 0 20px;
+		margin-bottom: 10%;
 	}
 
 	.popular-desc
@@ -1278,7 +1779,7 @@ footer
 		display: flex;
 		flex-direction: column;
 		height: 84%;
-		margin-left: 6%;
+		margin-left: 7%;
 		margin-top: 2%;
 	}
 
@@ -1304,7 +1805,7 @@ footer
 	{
 		margin: 0 auto;
 		height: auto;
-		width: 100%;
+		min-width: 100%;
 		display: flex;
 		flex-direction: column-reverse;
 		margin-bottom: 0px;
@@ -1321,7 +1822,7 @@ footer
 		margin:0 auto;
 		padding: 8% 5% 0 5%;
 		min-width: 100%;
-		height: 1340px;
+		height: 100%;
 		background-color: transparent;
 	}
 
@@ -1349,52 +1850,49 @@ footer
 
 	/* End accommodation in Marseilles*/
 	/*Section activities*/
-	#activities
-	{
-		margin: auto;
-		height: fit-content;
+
+	.activites {
+		margin: 14px auto;
+	  }
+	  .card-activites {
 		display: flex;
 		flex-direction: column;
-		flex-wrap: wrap;
-		align-content: space-around;
-	}
-
-	.card-activityl, .card-activitym, .card-activitys
-	{
-		width: 88%;
-		height: 190px;
-		flex-direction: row;
-	    flex-wrap: wrap}
-
-	.card-activityl img, .card-activitym img, .card-activitys img
-	{
-		height: 70%;
-	}
-
-	.activities-block
-	{
-		flex-wrap: wrap;
-		flex-direction: row;
-		justify-content: space-around;
-		gap: 1cm;
-	}
+		justify-content: center;
+		align-items: center;
+      
+	  }
+	  .activite-card-one {
+		width: 99%;
+	  }
+	  .img-activite-big,
+	  .act-img-large,
+	  .act-img-medium,
+	  .act-img-xl,
+	  .act-img-small {
+		height: 191px;
+	  }
+	
+	  .img-activite-big img,
+	  .act-img-large img,
+	  .act-img-medium img,
+	  .act-img-xl img,
+	  .act-img-small img {
+		height: 135px;
+		object-fit: cover;
+	  }
+	
+	  .card-activites-double {
+		gap: 24px;
+		width: 100%;
+	  }
 
 	.big-title
 	{
-		left:0;
-		margin:13% 0 10% 5%;
+
+		margin: 40px 10px 33px 10px;
 	}
 
-	.style-desc
-	{
-		width:139%;
-		padding: 0;
-		margin-left:5%;
-	}
-
-	.title-activity{
-		margin-bottom:5%;
-	}
+	
 	/*End section activités*/
 	footer
 	{
@@ -1404,10 +1902,11 @@ footer
 	.footer-container
 	{
 		bottom: 0;
+		margin-top:10%;
 		flex-direction: column;
 		align-items: flex-start;
 		height: 400%;
-		padding-left: 20px;
+		padding-left: 5%;
 	}
 
 	.about
@@ -1425,4 +1924,5 @@ footer
 	{
 		margin-bottom: 13%;
 	}
+	
 }
