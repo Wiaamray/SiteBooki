@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400;1,500&family=Roboto+Slab&display=swap');
 
+
 *
 {
 	margin:0;
@@ -14,7 +15,6 @@ body
 {
 	font-family: Raleway,sans-serif;
 	background-color: white;
-
 }
 
 section
@@ -173,7 +173,6 @@ a.active
 
 /*--Fin Nav--*/
 /*Barre de recherche*/
-
 main
 {
 	font-family: "Raleway", sans-serif;
@@ -184,7 +183,6 @@ main
 .container-search
 {
 	margin-top:33px;
-	
 }
 
 .container-search h1
@@ -258,7 +256,6 @@ form
 
 /* Fin Barre de recherche*/
 /*Filters*/
-
 .container-filters
 {
 	display:flex;
@@ -266,7 +263,7 @@ form
 	height:fit-content;
 	gap:15px;
 	margin-top:20px;
-	}
+}
 
 .container-filters h2
 {
@@ -315,7 +312,6 @@ form
 	line-height: 48px;
 }
 
-
 li.filters:hover
 {
 	cursor: pointer;
@@ -331,13 +327,11 @@ li.filters:hover
 /*Fin filters*/
 /*info*/
 .info
-
 {
 	margin-top:20px;
 	margin-bottom: 20px;
 	display: flex;
 	align-items: center;
-	
 }
 
 .info p
@@ -367,7 +361,6 @@ aside
 	flex-direction: column;
 	border-radius: 20px;
 	padding: 0px 15px 25px 15px;
-	
 }
 
 .popular-block
@@ -654,155 +647,163 @@ article a
 }
 
 /*Fin section-2 Accommodation in Marseilles*/
-
 /*partie activités*/
-
-.activites {
+.activites
+{
 	display: flex;
 	flex-direction: column;
 	margin:0 auto;
 	margin-top: 40px;
-  }
+}
 
-  .card-activites {
+.card-activites
+{
 	display: flex;
 	justify-content: space-between;
 	gap: 30px;
 	margin-bottom: 40px;
-  }
+}
 
-  .big-title
-  {
-	  display: flex;
-	  align-content: space-around;
-	  margin: 30px 0;
-  }
-  
-  .activite-card-one:hover
+.big-title
+{
+	display: flex;
+	align-content: space-around;
+	margin: 30px 0;
+}
+
+.activite-card-one:hover
 {
 	cursor: pointer;
 	transform: scale(1.03);
 }
 
-  .act-card-title {
+.act-card-title
+{
 	margin-left: 20px;
 	font-weight: bold;
 	padding: 10px 10px;
-  }
+}
 
-  .activite-card-one {
+.activite-card-one
+{
 	width: 25%;
 	min-width: 150px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	border-radius: 15px;
-  }
-  
-  .img-activite-big {
+}
+
+.img-activite-big
+{
 	border: none;
 	height: 445px;
-	
-  }
-  .img-activite-big img {
+}
+
+.img-activite-big img
+{
 	height: 390px;
 	width: 100%;
 	object-fit: cover;
 	border-radius: 15px 15px 0 0;
-  }
-  
-  .card-activites-double {
+}
+
+.card-activites-double
+{
 	display: flex;
 	flex-direction: column;
 	width: 25%;
 	min-width: 150px;
 	gap: 45px;
-	
-  }
-  .act-img-xl {
+}
+
+.act-img-xl
+{
 	height: 235px;
 	border: none;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	border-radius: 15px;
-  }
+}
 
-  .act-img-xl:hover
-  {
-	  cursor: pointer;
-	  transform: scale(1.03);
-  }
+.act-img-xl:hover
+{
+	cursor: pointer;
+	transform: scale(1.03);
+}
 
-  .act-img-xl img {
+.act-img-xl img
+{
 	height: 181px;
 	width: 100%;
 	object-fit: cover;
 	border-radius: 15px 15px 0 0;
-  }
-  
-  .act-img-small {
+}
+
+.act-img-small
+{
 	border: none;
 	height: 165px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	border-radius: 15px;
-  }
+}
 
+.act-img-small:hover
+{
+	cursor: pointer;
+	transform: scale(1.03);
+}
 
-  .act-img-small:hover
-  {
-	  cursor: pointer;
-	  transform: scale(1.03);
-  }
-  
-  .act-img-small img {
+.act-img-small img
+{
 	height: 110px;
 	width: 100%;
 	object-position: center;
 	object-fit: cover;
 	border-radius: 15px 15px 0 0;
-  }
-  
-  .act-img-medium {
+}
+
+.act-img-medium
+{
 	border: none;
 	height: 195px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	border-radius: 15px;
-  }
+}
 
-  .act-img-medium:hover
-  {
-	  cursor: pointer;
-	  transform: scale(1.03);
-  }
-  
-  
-  .act-img-medium img {
+.act-img-medium:hover
+{
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+.act-img-medium img
+{
 	height: 139px;
 	width: 100%;
 	object-position: top;
 	object-fit: cover;
 	border-radius: 15px 15px 0 0;
-  }
-  
-  .act-img-large {
+}
+
+.act-img-large
+{
 	border: none;
 	height: 205px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	border-radius: 15px;
-  }
+}
 
-  
-  .act-img-large:hover
-  {
-	  cursor: pointer;
-	  transform: scale(1.03);
-  }
-  
-  .act-img-large img {
+.act-img-large:hover
+{
+	cursor: pointer;
+	transform: scale(1.03);
+}
+
+.act-img-large img
+{
 	height: 154px;
 	width: 100%;
 	object-fit: cover;
 	border-radius: 15px 15px 0 0;
-
-  }
-
+}
 
 footer
 {
@@ -813,7 +814,6 @@ footer
 }
 
 .footer-container
-
 {
 	margin-top: 34px;
 	padding: 60px 1px 0 40px;
@@ -877,8 +877,7 @@ a
 	color: black;
 }
 
-@media only screen and (max-width: 991px) 
-
+@media only screen and (max-width: 991px)
 {
 	body
 	{
@@ -963,7 +962,7 @@ a
 	{
 		font-size: 16px;
 		color: black;
-		padding: 2% -4%;
+		padding-right:44%
 	}
 
 	.box-search
@@ -1010,10 +1009,9 @@ a
 
 	.container-filters
 	{
-
 		display: flex;
 		flex-direction: column;
-	    margin-bottom: 7%;
+		margin-bottom: 7%;
 		margin-left:6%;
 	}
 
@@ -1053,7 +1051,6 @@ a
 	}
 
 	.heading
-
 	{
 		padding: 5% 5% 5% 6%;
 	}
@@ -1103,16 +1100,14 @@ a
 		padding: 4px;
 	}
 
-	.img-popular1,
-	.img-popular2,
-	.img-popular3 {
-
+	.img-popular1,.img-popular2,.img-popular3
+	{
 		height: 100%;
 		width: 30%;
-		object-fit: cover; }
+		object-fit: cover;
+	}
 
 	/*Accommodation in Marseilles*/
-
 	.booking-container
 	{
 		margin: 0 auto;
@@ -1129,7 +1124,6 @@ a
 	}
 
 	.marseilles-container
-
 	{
 		margin:0 auto;
 		padding: 8% 5% 0 5%;
@@ -1138,9 +1132,9 @@ a
 		background-color: transparent;
 	}
 
-	ul#cards-container{
+	ul#cards-container
+	{
 		margin:0 ;
-		
 	}
 
 	.card-hotel
@@ -1162,59 +1156,53 @@ a
 
 	/* End accommodation in Marseilles*/
 	/*Section activities*/
-
-	.activites{
+	.activites
+	{
 		height: fit-content;
 		display: flex;
 		flex-direction: column;
-	    justify-content: space-around;
+		justify-content: space-around;
 		width: 90%;
 	}
 
-	.card-activites {
+	.card-activites
+	{
 		display: flex;
 		flex-direction: column;
 		gap: 20px;
 		justify-content: center;
 		min-width: 94%;
+	}
 
-	  }
-
-	  .act-card-title {
+	.act-card-title
+	{
 		margin: 10px;
-	  }
+	}
 
-	  .activite-card-one{
+	.activite-card-one
+	{
 		width: 100%;
-	
+	}
 
-	  }
-
-	  .img-activite-big,
-	  .act-img-large,
-	  .act-img-medium,
-	  .act-img-xl,
-	  .act-img-small {
+	.img-activite-big,.act-img-large,.act-img-medium,.act-img-xl,.act-img-small
+	{
 		height: 191px;
-	  }
-	
-	  .img-activite-big img,
-	  .act-img-large img,
-	  .act-img-medium img,
-	  .act-img-xl img,
-	  .act-img-small img {
+	}
+
+	.img-activite-big img,.act-img-large img,.act-img-medium img,.act-img-xl img,.act-img-small img
+	{
 		height: 135px;
 		object-fit: cover;
 		object-position: center;
-	  }
-	
-	  .card-activites-double {
+	}
+
+	.card-activites-double
+	{
 		gap: 24px;
 		width: 100%;
-	  }
-  
-	/*End section activités*/
+	}
 
+	/*End section activités*/
 	footer
 	{
 		min-width:100%;
@@ -1244,15 +1232,11 @@ a
 	{
 		margin-bottom: 13%;
 	}
-
 }
-	
+
 /*Responsive mobile*/
-
-@media only screen and (max-width: 768px) 
-
+@media only screen and (max-width: 768px)
 {
-	
 	body
 	{
 		min-width:100%;
@@ -1336,7 +1320,7 @@ a
 	{
 		font-size: 16px;
 		color: black;
-		padding: 2% -4%;
+		padding:0;
 	}
 
 	.box-search
@@ -1383,10 +1367,9 @@ a
 
 	.container-filters
 	{
-
 		display: flex;
 		flex-direction: column;
-	    margin-bottom: 7%;
+		margin-bottom: 7%;
 		margin-left:6%;
 	}
 
@@ -1473,14 +1456,12 @@ a
 		height: 141px;
 	}
 
-	.img-popular1,
-	.img-popular2,
-	.img-popular3 {
-
-		height: 100%; }
+	.img-popular1,.img-popular2,.img-popular3
+	{
+		height: 100%;
+	}
 
 	/*Accommodation in Marseilles*/
-
 	.booking-container
 	{
 		margin: 0 auto;
@@ -1497,7 +1478,6 @@ a
 	}
 
 	.marseilles-container
-
 	{
 		margin:0 auto;
 		padding: 8% 5% 0 5%;
@@ -1506,9 +1486,9 @@ a
 		background-color: transparent;
 	}
 
-	ul#cards-container{
+	ul#cards-container
+	{
 		margin:0 ;
-		
 	}
 
 	.card-hotel
@@ -1530,49 +1510,46 @@ a
 
 	/* End accommodation in Marseilles*/
 	/*Section activities*/
-
-	.activites {
+	.activites
+	{
 		margin: 14px auto;
-	  }
-	  .card-activites {
+	}
+
+	.card-activites
+	{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-      
-	  }
-	  .activite-card-one {
+	}
+
+	.activite-card-one
+	{
 		width: 99%;
-	  }
-	  .img-activite-big,
-	  .act-img-large,
-	  .act-img-medium,
-	  .act-img-xl,
-	  .act-img-small {
+	}
+
+	.img-activite-big,.act-img-large,.act-img-medium,.act-img-xl,.act-img-small
+	{
 		height: 191px;
-	  }
-	
-	  .img-activite-big img,
-	  .act-img-large img,
-	  .act-img-medium img,
-	  .act-img-xl img,
-	  .act-img-small img {
+	}
+
+	.img-activite-big img,.act-img-large img,.act-img-medium img,.act-img-xl img,.act-img-small img
+	{
 		height: 135px;
 		object-fit: cover;
-	  }
-	
-	  .card-activites-double {
+	}
+
+	.card-activites-double
+	{
 		gap: 24px;
 		width: 100%;
-	  }
+	}
 
 	.big-title
 	{
-
 		margin: 40px 10px 33px 10px;
 	}
 
-	
 	/*End section activités*/
 	footer
 	{
@@ -1604,5 +1581,4 @@ a
 	{
 		margin-bottom: 13%;
 	}
-	
 }
